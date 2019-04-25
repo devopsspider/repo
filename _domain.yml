@@ -1,0 +1,16 @@
+slots:
+  Channel:
+    type: float
+  Category:
+    type: categorical
+  Genre:
+    type: categorical
+intents:
+  - greet
+entities:
+  - Channel
+  - Category
+  - Genre
+action_factory: remote
+actions:
+  - undefinedWelcome

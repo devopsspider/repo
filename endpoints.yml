@@ -1,0 +1,4 @@
+action_endpoint:
+  url: 'http://localhost:5000'
+nlu:
+  url: 'http://localhost:5000'
